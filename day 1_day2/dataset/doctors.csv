@@ -1,0 +1,85 @@
+department,doctor,shift
+Orthopedics,Dr.Priya Shankar /  Dr.Lalitha Prakash,1
+Orthopedics,Dr.Chota Bheem /  Dr.Golu,2
+Orthopedics,Dr.Chutki Laddo /  Dr.Tuntun Aunty,3
+Internal Medicine,Dr.Soya Sarkar /  Dr.Bahu Rupiya,1
+Internal Medicine,Dr.Andhere Kumar /  Dr.Preetam Pal,2
+Internal Medicine,Dr.Anu Agarwal /  Dr.Priti Singh,3
+Gastroenterology,Dr.Rajesh Kumar /  Dr.Shreya Raman,1
+Gastroenterology,Dr.Chiku Singh /  Dr.Seema Thakur,2
+Gastroenterology,Dr.Vinay Raj /  Dr.Rajan Iyer,3
+Cardiology,Dr.Amit Sehgal /  Dr.Reema Tandle,1
+Cardiology,Dr.Bhupen Uncle /  Dr.Pavithra J,2
+Cardiology,Dr.Gunjan Arora /  Dr.Sachin Lallu,3
+Ophthalmology,Dr.Kiran Malhotra /  Dr.Anita Desai,1
+Ophthalmology,Dr.Rohit Verma /  Dr.Pooja Mehta,2
+Ophthalmology,Dr.Suresh Iyer /  Dr.Neha Kulkarni,3
+Neurology,Dr.Sandeep Rao /  Dr.Meena Joshi,1
+Neurology,Dr.Abhishek Nair /  Dr.Pankaj Shah,2
+Neurology,Dr.Ritu Anand /  Dr.Vikas Malhotra,3
+Dermatology,Dr.Aarti Bansal /  Dr.Nitin Kapoor,1
+Dermatology,Dr.Sonal Jain /  Dr.Aman Gupta,2
+Dermatology,Dr.Kavita Rao /  Dr.Deepak Sethi,3
+Pulmonology,Dr.Ramesh Pillai /  Dr.Smita Ghosh,1
+Pulmonology,Dr.Ajay Kulkarni /  Dr.Rina Sen,2
+Pulmonology,Dr.Manish Arora /  Dr.Kalpana Iyer,3
+Nephrology,Dr.Prasad Menon /  Dr.Tanya Kapoor,1
+Nephrology,Dr.Vivek Mishra /  Dr.Rekha Nair,2
+Nephrology,Dr.Suresh Patil /  Dr.Anjali Deshmukh,3
+Urology,Dr.Karthik Reddy /  Dr.Mala Shah,1
+Urology,Dr.Naveen Chandra /  Dr.Priya Malhotra,2
+Urology,Dr.Ashok Verma /  Dr.Sonal Mehra,3
+Oncology,Dr.Rahul Saxena /  Dr.Neetu Aggarwal,1
+Oncology,Dr.Puneet Arora /  Dr.Kanchan Roy,2
+Oncology,Dr.Amitabh Sen /  Dr.Lavanya Rao,3
+Endocrinology,Dr.Sunil Khanna /  Dr.Ritu Malhotra,1
+Endocrinology,Dr.Deepak Arjun /  Dr.Shilpa Menon,2
+Endocrinology,Dr.Mohit Bhat /  Dr.Kriti Singh,3
+Rheumatology,Dr.Vandana Iyer /  Dr.Anup Das,1
+Rheumatology,Dr.Sachin Kulkarni /  Dr.Preeti Jain,2
+Rheumatology,Dr.Rajiv Malhotra /  Dr.Smriti Bose,3
+Hematology,Dr.Nikhil Mehta /  Dr.Ayesha Khan,1
+Hematology,Dr.Sudhir Rao /  Dr.Poonam Chawla,2
+Hematology,Dr.Vikas Agarwal /  Dr.Renu Gupta,3
+Psychiatry,Dr.Anand Pillai /  Dr.Shweta Mishra,1
+Psychiatry,Dr.Rahul Banerjee /  Dr.Kiran Joshi,2
+Psychiatry,Dr.Manju Sinha /  Dr.Arvind Kapoor,3
+ENT,Dr.Suresh Nayak /  Dr.Richa Bansal,1
+ENT,Dr.Amit Joshi /  Dr.Pallavi Kulkarni,2
+ENT,Dr.Neeraj Arora /  Dr.Sunita Malhotra,3
+Radiology,Dr.Pranav Shah /  Dr.Tejaswini Rao,1
+Radiology,Dr.Harish Patel /  Dr.Nupur Goyal,2
+Radiology,Dr.Vinod Kulkarni /  Dr.Madhuri Iyer,3
+Anesthesiology,Dr.Rakesh Sood /  Dr.Aarti Malhotra,1
+Anesthesiology,Dr.Sameer Jain /  Dr.Nandita Bose,2
+Anesthesiology,Dr.Manoj Bhat /  Dr.Priyanka Desai,3
+Pediatrics,Dr.Neha Gupta /  Dr.Sanjay Kulkarni,1
+Pediatrics,Dr.Ritu Sharma /  Dr.Avinash Rao,2
+Pediatrics,Dr.Poonam Mehra /  Dr.Karthik Iyer,3
+Gynecology,Dr.Sarita Nair /  Dr.Megha Joshi,1
+Gynecology,Dr.Pallavi Deshpande /  Dr.Reema Shah,2
+Gynecology,Dr.Kavita Malhotra /  Dr.Anjali Menon,3
+Obstetrics,Dr.Madhavi Rao /  Dr.Preeti Kapoor,1
+Obstetrics,Dr.Sonal Chatterjee /  Dr.Amit Khurana,2
+Obstetrics,Dr.Nirmala Iyer /  Dr.Shubha Nair,3
+General Surgery,Dr.Rohit Malhotra /  Dr.Sameer Khan,1
+General Surgery,Dr.Ajay Verma /  Dr.Kunal Mehta,2
+General Surgery,Dr.Suresh Gupta /  Dr.Rajesh Iyer,3
+Plastic Surgery,Dr.Anil Saxena /  Dr.Pooja Nair,1
+Plastic Surgery,Dr.Sanjiv Kapoor /  Dr.Rekha Shah,2
+Plastic Surgery,Dr.Deepak Malhotra /  Dr.Tina Bose,3
+Emergency Medicine,Dr.Vikas Tandon /  Dr.Renu Singh,1
+Emergency Medicine,Dr.Pratik Mehta /  Dr.Sunil Rao,2
+Emergency Medicine,Dr.Ashish Kulkarni /  Dr.Neetu Verma,3
+Infectious Diseases,Dr.Shruti Iyer /  Dr.Ashok Menon,1
+Infectious Diseases,Dr.Rahul Nambiar /  Dr.Kriti Shah,2
+Infectious Diseases,Dr.Animesh Das /  Dr.Suman Roy,3
+Geriatrics,Dr.Hemant Kulkarni /  Dr.Savitri Rao,1
+Geriatrics,Dr.Mohan Iyer /  Dr.Kusum Malhotra,2
+Geriatrics,Dr.Pradeep Sen /  Dr.Rashmi Gupta,3
+Sports Medicine,Dr.Arun Shetty /  Dr.Nisha Patil,1
+Sports Medicine,Dr.Vivek Arora /  Dr.Priyanshu Jain,2
+Sports Medicine,Dr.Siddharth Nair /  Dr.Kavya Menon,3
+Pathology,Dr.Shashi Gupta /  Dr.Ankur Bansal,1
+Pathology,Dr.Renu Choudhary /  Dr.Ketan Shah,2
+Pathology,Dr.Mukesh Agarwal /  Dr.Smita Kulkarni,3
