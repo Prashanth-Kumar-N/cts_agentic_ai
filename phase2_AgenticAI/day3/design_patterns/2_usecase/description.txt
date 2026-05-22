@@ -1,0 +1,203 @@
+Create a well drafted use case documentation based on the following use case.
+Topic: Build Agentic AI application using "Agentic AI Design Patterns".
+
+The overall use case is as follows:
+
+1) read the dataset from CSV
+2) For a given applicant ID, determine the Risk 
+3) For the same applicant ID, based on other factors, determine Loan Decision
+4) As a reflection, fetch 3 other Applicants that are similar to the given Applicant ID.
+5) Determine their Risk and Loan Decision.
+6) This will help to make a final decision.
+
+The following steps can be used as an extension to the use case to make it more interesting and replicate a real life situation.
+
+To make it more realistic and truly “enterprise Agentic AI”, the next steps should introduce:
+* uncertainty
+* conflicting signals
+* collaboration
+* external systems
+* continuous learning
+* human governance
+
+# Recommended Next Steps
+## 1. Add Explainability Layer (Very Important)
+Banks must explain *why* a loan was rejected.
+### Add
+Generate:
+* top positive factors
+* top negative factors
+* confidence score
+* plain-English justification
+
+### Example
+```text
+Loan rejected because:
+- Debt-to-income ratio is very high (0.71)
+- Prior default history exists
+- Credit utilization exceeds 85%
+```
+
+# 2. Add Fraud Detection Agent
+Currently the system only evaluates creditworthiness.
+In real life:
+* good credit score ≠ safe applicant
+
+### Add a Fraud Agent
+Checks:
+* sudden income spikes
+* unusual location
+* synthetic identities
+* repeated applications
+* device mismatch
+
+### Example
+```text
+Applicant has excellent credit score,
+but application originated from a risky IP region.
+```
+
+# 3. Add Human-In-The-Loop Escalation
+### Real-life behavior
+Borderline applications are manually reviewed.
+
+### Add
+If:
+* confidence < threshold
+* conflicting signals exist
+* reflection disagrees
+
+then:
+```text
+ESCALATE TO CREDIT ANALYST
+```
+
+### Example
+```python
+if confidence < 0.65:
+    decision = "Manual Review Required"
+```
+
+# 4. Add Dynamic Planning
+Currently workflow is fixed.
+Real agents dynamically decide next steps.
+## Example
+
+### Low-risk applicant
+
+```text
+Read profile
+Approve
+```
+
+### High-risk applicant
+
+```text
+Read profile
+Verify income
+Check fraud history
+Retrieve similar cases
+Request human approval
+```
+
+# 5. Add Memory of Past Decisions
+Very realistic.
+Store:
+* previous approvals
+* analyst overrides
+* fraud outcomes
+* repayment history
+
+### Example
+```text
+Applicant previously rejected twice.
+```
+
+# 6. Add Event-Driven Workflow
+Real BFSI systems are event-driven.
+
+### Example Events
+* new application received
+* repayment missed
+* score changed
+* suspicious transaction occurred
+
+### Example
+
+```python
+on_new_application()
+on_default_detected()
+on_credit_score_drop()
+```
+
+# 7. Add Retrieval-Augmented Knowledge
+Retrieve:
+* policy documents
+* RBI compliance rules
+* lending guidelines
+* historical approvals
+
+### Example
+
+```text
+Policy says:
+Applicants with bankruptcy in last 2 years require mandatory manual review.
+```
+# 8. Add Scenario Simulation
+This becomes extremely interesting.
+### Ask:
+
+```text
+What if applicant income drops by 20%?
+What if interest rates rise?
+What if DTI becomes 0.55?
+```
+
+### Output
+* risk change
+* decision change
+* EMI impact
+
+### Real-world value
+Stress testing.
+
+# 9. Add Continuous Learning
+After 6 months:
+
+* approved loan defaulted
+* rejected applicant would have repaid
+
+Feed this back.
+### Example
+```text
+Past approvals with high utilization had 72% default rate.
+```
+
+# 10. Add Autonomous Negotiation
+Very advanced and highly realistic.
+### Example
+Instead of reject:
+
+```text
+Reduce loan amount from $500K to $350K
+Increase interest rate
+Request collateral
+```
+
+# 11. Add Role-Based Multi-Agent Workflow
+Extremely realistic enterprise setup.
+
+| Agent             | Responsibility         |
+| ----------------- | ---------------------- |
+| Credit Agent      | Creditworthiness       |
+| Fraud Agent       | Identity/Fraud         |
+| Compliance Agent  | Policy adherence       |
+| Pricing Agent     | Interest rate          |
+| Negotiation Agent | Offer optimization     |
+| Audit Agent       | Explainability/logging |
+
+Then:
+
+```text
+Manager Agent consolidates final decision
+```

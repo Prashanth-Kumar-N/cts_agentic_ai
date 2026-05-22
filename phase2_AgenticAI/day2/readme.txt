@@ -1,0 +1,1 @@
+On day 2, the code was on the Components of Agentic AI
