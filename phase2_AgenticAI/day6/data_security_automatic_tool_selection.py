@@ -9,7 +9,7 @@ from langgraph.graph import StateGraph, END
 from dotenv import load_dotenv
 
 # ------------------- list of variables -------------------------
-env_file = "D:/stackroute/2_AI-assisted-programming/learning_requirements/cognizant/2025/1/code/2_AgenticAI/db_connections.env"
+env_file = "db_connections.env"
 
 load_dotenv(env_file)
 
@@ -55,11 +55,6 @@ def ExecuteQuery(CONN,query,action):
 
     cursor.close()
     return (status)
-
-# Test the connection
-# query = "select * from data_security limit 5;"
-# ret = ExecuteQuery(CONN,query,"S")
-# print(ret)
 
 # 3. SQL Tool Definitions
 # -----------------------------
@@ -293,24 +288,3 @@ print("\nFinal Answer:")
 print(result["final_answer"])
 print(result["sql_result"][1])
 
-'''
-Tool: user_access
-Prompts:
-“Identify users attempting logins from multiple geographic locations within a short time window.”
-“Show employees accessing sensitive applications after repeated authentication failures.”
-
-Tool: risk_threat_scoring
-Prompts:
-“Retrieve the top 10 highest-risk users across all departments.”
-“Show business units with consistently elevated threat scores.”
-
-Tool: data_exfiltration_monitoring
-Prompts:
-“Find users transferring highly sensitive files to external destinations.”
-“Retrieve suspicious outbound data activities from unmanaged endpoints.”
-
-Tool: device_endpoint_compliance
-Prompts:
-“List devices accessing enterprise systems without encryption enabled.”
-“Show non-compliant endpoints connected to confidential banking resources.”
-'''
